@@ -38,15 +38,15 @@ public class Patient implements Comparable<Patient> {
 
     public boolean aMaladieChronique(){
         Iterator<Maladie> iterator=lesmaladies.iterator();
-        boolean mld=false;
-        while (iterator.hasNext()&&  !mld){
+
+        while (iterator.hasNext()){
             Maladie m=iterator.next();
-            if (m.getTypemaladie()==Type.chronique)
-                mld=true;
+            if (m.getTypemaladie()==Type.chronique){
 
 
+                return true;}
         }
-        return mld;
+        return false;
 
     }
 

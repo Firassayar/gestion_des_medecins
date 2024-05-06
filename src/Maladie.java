@@ -24,7 +24,7 @@ public class Maladie {
     @Override
     public boolean equals (Object o) {
            if(o==null){return false;}
-          if(this==o){return false;};
+          if(this==o){return true;};
         if (o instanceof Maladie) {
 
             Maladie m = (Maladie) o;

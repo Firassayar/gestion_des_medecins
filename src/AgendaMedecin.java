@@ -17,7 +17,7 @@ public class AgendaMedecin {
     }
 
     public void prendreRendezvous(int dateEnseconde,Patient p){
-
+ 
                 lesRendezvous.put(dateEnseconde,p);
 
 
